@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country API</title>
+    <link rel="shortcut icon" href="Images/Country-map.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="m-7"> 
+        <!-- Heading Section -->
+        <section>
+            <h1 class="text-center text-4xl text-green-700 font-bold">250 Country and Details</h1>
+            <div class="text-center input-sec">
+                <input class="rounded" id="country-input" type="text" placeholder=" Please Search Your Fav. Country Name">
+                <p class="font-bold text-red-300">Note: If you search by <span class="font-bold text-yellow-700">(Country Name)</span> then you will get the value.</p>
+                <button onclick="searchCountry()" id="search-btn" class="bg-green-700 px-10 py-2 rounded text-white lg:mt-3">Search</button>
+            </div>
+        </section>
+
+        <!-- Details Section -->
+        <section id="details-sec" class="mt-6">
+
+        </section>
+
+        <!-- Search Country Section -->
+        <section id="search-country" class="mt-8">
+
+        </section>
+
+        <!-- Countries Section -->
+        <section id="country-ui">
+
+        </section>
+    </main>
+    <!-- Tailwind Connected -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- JS Connected -->
+    <script src="JS/app.js"></script>
+</body>
+</html>
